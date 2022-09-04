@@ -16,11 +16,11 @@ public class Main {
 
             int avg = (a + b + c) / 3;
             if ((a + b + c) % 3 != 0) {
-                System.out.println("Case " + testCase + ": Fight");
+                System.out.println("Case " + test + ": Fight");
             } else if (Math.abs(a - avg) % k == 0 && Math.abs(b - avg) % k == 0 && Math.abs(b - avg) % k == 0) {
-                System.out.println("Case " + testCase + ": Peaceful");
+                System.out.println("Case " + test + ": Peaceful");
             } else {
-                System.out.println("Case " + testCase + ": Fight");
+                System.out.println("Case " + test + ": Fight");
             }
         }
     }
